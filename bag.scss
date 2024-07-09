@@ -1,0 +1,178 @@
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 30px;
+
+}
+
+.nav h6 {
+    
+    position: relative;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: infinite
+}
+
+@keyframes slide {
+    to {
+        left: -10px;
+        top: 0px;
+    }
+
+    from {
+        top: 0;
+        left: 100px;
+    }
+}
+
+.bar {
+    display: flex;
+    background-color: rgb(246, 238, 239);
+    justify-content: space-evenly;
+    height: 50ptx;
+}
+
+.bar h1{
+    color:rgb(175, 6, 97);
+}
+
+.bar ul {
+    display: flex;
+    justify-content: space-around;
+     gap: 40px;
+     align-items: center;
+}
+
+.bar ul li i{
+    font-size: 20px;
+}
+
+.desk{
+    margin: 70px;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow: 1px white;
+}
+
+.ch button{
+    height: 50px;
+    width:200px;
+    background-color: black;
+    color: white;
+}
+.ch1 button{
+    height: 30px;
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+
+.ch1 {
+    position: relative;
+    top: 150px;
+}
+
+
+.ch p{color:grey ;
+    
+}
+
+.ch:hover{
+    border: 0.5px solid;
+}
+
+.vedo{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:white;
+    gap: 30px;
+    margin: 10px;
+}
+
+h2{
+    position: relative;
+    top: 30px;
+}
+.vedo p{
+     color: grey;
+}
+
+.big{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.big button{
+    height: 30px;
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+
+.on{padding-top: 20px;
+    height: 180px;
+    width: 400px;
+    background-color: rgb(236, 223, 249);
+}
+
+.icon{
+    margin :20px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 100px;
+}    
+
+
+.on i{
+    font-size: 50px;
+}
+
+.mira{
+    margin-top: 200px;
+    line-height: 40px;
+}
+
+.girls{
+    display: flex;
+   justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+hr{margin-top: 50px;}
+
+.footer li{
+    position: relative;
+    right: 40px;
+    line-height: 30px;
+}
+
+.cont ul {
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+}  
+
+.cont input{
+    position: relative;
+    top: 40px;
+    height: 20px;
+    width: 300px;
+}
+.footer p{
+    letter-spacing: 4px;
+}
+
